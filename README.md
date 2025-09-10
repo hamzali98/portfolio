@@ -19,8 +19,7 @@ The site is deployed through a fully automated CI/CD pipeline utilizing GitHub a
 2. Vercel automatically builds and deploys the site  
 3. Site is live via domain: `hamzali.pages.dev`
 GitHub → (push) → Cloudflare CI/CD → Live Site
-
-### 9. Contact / Social  
+  
 ## Contact
 Reach out via:
 - Email: hamza.ali.art3@gmail.com
