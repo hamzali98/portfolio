@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Hamza Ali</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      body {
+        background: #181a1b;
+        color: #f5f6fa;
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        text-align: center;
+        padding: 2rem 1rem 1rem 1rem;
+        background: #23272b;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+      }
+      header p {
+        color: #b2becd;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+      }
+      section {
+        max-width: 900px;
+        margin: 2rem auto;
+        background: #23272b;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+      }
+      .about {
+        margin-bottom: 2rem;
+      }
+      .about h2 {
+        margin-top: 0;
+        color: #00adb5;
+      }
+      .about p {
+        color: #b2becd;
+        line-height: 1.6;
+      }
+      .tools {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+      }
+      .tool {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80px;
+      }
+      .tool i {
+        font-size: 2.5rem;
+        color: #00adb5;
+        margin-bottom: 0.5rem;
+      }
+      .tool span {
+        font-size: 1rem;
+        color: #b2becd;
+      }
+      .projects {
+        margin-top: 2rem;
+      }
+      .project {
+        background: #181a1b;
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+      }
+      .project h3 {
+        margin: 0 0 0.5rem 0;
+        color: #00adb5;
+      }
+      .project p {
+        margin: 0 0 1rem 0;
+        color: #b2becd;
+      }
+      .project a {
+        color: #00adb5;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.2s;
+      }
+      .project a:hover {
+        color: #f5f6fa;
+      }
+      .contact {
+        margin-top: 2rem;
+        background: #181a1b;
+        border-radius: 8px;
+        padding: 1.5rem;
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+      }
+      .contact h2 {
+        color: #00adb5;
+        margin-top: 0;
+      }
+      .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        color: #b2becd;
+      }
+      .contact-info i {
+        margin-right: 0.5rem;
+        color: #00adb5;
+      }
+      @media (max-width: 600px) {
+        section {
+          padding: 1rem;
+        }
+        .tools {
+          gap: 1rem;
+        }
+        .tool {
+          width: 60px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Hamza Ali</h1>
+      <p>Application Developer &bull; Building modern apps and solutions</p>
+    </header>
+    <section>
+      <h2>Projects & Applications</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>TaskFlow Manager</h3>
+          <p>
+            A productivity web app for managing daily tasks and projects. Built
+            with React and Node.js, featuring real-time collaboration,
+            notifications, and a sleek UI.
+          </p>
+          <a href="https://demo-taskflow.example.com" target="_blank"
+            >Live Demo</a
+          >
+        </div>
+        <div class="project">
+          <h3>TaskFlow Manager</h3>
+          <p>
+            A productivity web app for managing daily tasks and projects. Built
+            with React and Node.js, featuring real-time collaboration,
+            notifications, and a sleek UI.
+          </p>
+          <a href="https://demo-taskflow.example.com" target="_blank"
+            >Live Demo</a
+          >
+        </div>
+        <div class="project">
+          <h3>TaskFlow Manager</h3>
+          <p>
+            A productivity web app for managing daily tasks and projects. Built
+            with React and Node.js, featuring real-time collaboration,
+            notifications, and a sleek UI.
+          </p>
+          <a href="https://demo-taskflow.example.com" target="_blank"
+            >Live Demo</a
+          >
+        </div>
+        <div class="project">
+          <h3>Weatherly Mobile</h3>
+          <p>
+            A cross-platform weather application developed using React Native
+            and OpenWeatherMap API. Provides real-time weather updates,
+            forecasts, and location-based alerts.
+          </p>
+          <a href="https://demo-weatherly.example.com" target="_blank"
+            >Live Demo</a
+          >
+        </div>
+        <div class="project">
+          <h3>Bookworm</h3>
+          <p>
+            An online code sharing and collaboration platform for developers.
+            Features syntax highlighting, real-time editing, and GitHub
+            integration. Built with Python (Django) and Vue.js.
+          </p>
+          <a href="https://demo-codeshare.example.com" target="_blank"
+            >Live Demo</a
+          >
+        </div>
+      </div>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 2rem;
+      "
+    >
+      <div style="margin-bottom: 1rem;"></div>
+        <label for="projectsPerPageSelect" style="color: #b2becd; font-size: 1rem; margin-right: 0.5rem;">Items per page:</label>
+        <select id="projectsPerPageSelect" style="background: #23272b; color: #00adb5; border: none; padding: 0.3rem 0.8rem; border-radius: 5px; font-size: 1rem;">
+        <option value="2">2</option>
+        <option value="3" selected>3</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        </select>
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <button
+        id="prevPage"
+        style="
+          background: #23272b;
+          color: #00adb5;
+          border: none;
+          padding: 0.6rem 1.2rem;
+          border-radius: 5px;
+          margin-right: 1rem;
+          cursor: pointer;
+          font-size: 1rem;
+        "
+        disabled
+        >
+        <i class="fas fa-chevron-left"></i>
+        </button>
+        <span id="paginationNumbers" style="display: flex; align-items: center; gap: 0.5rem;"></span>
+        <button
+        id="nextPage"
+        style="
+          background: #23272b;
+          color: #00adb5;
+          border: none;
+          padding: 0.6rem 1.2rem;
+          border-radius: 5px;
+          margin-left: 1rem;
+          cursor: pointer;
+          font-size: 1rem;
+        "
+        >
+        <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+    <script>
+      const projects = Array.from(document.querySelectorAll(".project"));
+      let projectsPerPage = 3;
+      let currentPage = 1;
+      let totalPages = Math.ceil(projects.length / projectsPerPage);
+
+      function renderPaginationNumbers() {
+        const container = document.getElementById("paginationNumbers");
+        container.innerHTML = "";
+        // Show previous page number if exists
+        if (currentPage > 1) {
+        const prev = document.createElement("button");
+        prev.textContent = currentPage - 1;
+        prev.style.cssText = "background: #23272b; color: #00adb5; border: none; border-radius: 4px; padding: 0.3rem 0.7rem; cursor: pointer; font-size: 1rem;";
+        prev.onclick = () => {
+          currentPage = currentPage - 1;
+          showPage(currentPage);
+        };
+        container.appendChild(prev);
+        }
+        // Current page
+        const curr = document.createElement("span");
+        curr.textContent = currentPage;
+        curr.style.cssText = "color: #f5f6fa; font-weight: bold; font-size: 1.1rem; background: #00adb5; border-radius: 4px; padding: 0.3rem 0.7rem;";
+        container.appendChild(curr);
+        // Next page number if exists
+        if (currentPage < totalPages) {
+        const next = document.createElement("button");
+        next.textContent = currentPage + 1;
+        next.style.cssText = "background: #23272b; color: #00adb5; border: none; border-radius: 4px; padding: 0.3rem 0.7rem; cursor: pointer; font-size: 1rem;";
+        next.onclick = () => {
+          currentPage = currentPage + 1;
+          showPage(currentPage);
+        };
+        container.appendChild(next);
+        }
+        // If more than 3 pages, show ... and last page
+        if (totalPages > 3 && currentPage < totalPages - 1) {
+        const dots = document.createElement("span");
+        dots.textContent = "...";
+        dots.style.cssText = "color: #b2becd; font-size: 1rem;";
+        container.appendChild(dots);
+
+        const last = document.createElement("button");
+        last.textContent = totalPages;
+        last.style.cssText = "background: #23272b; color: #00adb5; border: none; border-radius: 4px; padding: 0.3rem 0.7rem; cursor: pointer; font-size: 1rem;";
+        last.onclick = () => {
+          currentPage = totalPages;
+          showPage(currentPage);
+        };
+        container.appendChild(last);
+        }
+      }
+
+      function showPage(page) {
+        totalPages = Math.ceil(projects.length / projectsPerPage);
+        if (page < 1) page = 1;
+        if (page > totalPages) page = totalPages;
+        currentPage = page;
+        projects.forEach((proj, idx) => {
+        proj.style.display =
+          idx >= (page - 1) * projectsPerPage &&
+          idx < page * projectsPerPage
+            ? ""
+            : "none";
+        });
+        document.getElementById("prevPage").disabled = page === 1;
+        document.getElementById("nextPage").disabled = page === totalPages;
+        renderPaginationNumbers();
+      }
+
+      document.getElementById("prevPage").addEventListener("click", () => {
+        if (currentPage > 1) {
+        currentPage--;
+        showPage(currentPage);
+        }
+      });
+
+      document.getElementById("nextPage").addEventListener("click", () => {
+        if (currentPage < totalPages) {
+        currentPage++;
+        showPage(currentPage);
+        }
+      });
+
+      document.getElementById("projectsPerPageSelect").addEventListener("change", (e) => {
+        projectsPerPage = parseInt(e.target.value, 10);
+        totalPages = Math.ceil(projects.length / projectsPerPage);
+        currentPage = 1;
+        showPage(currentPage);
+      });
+
+      // Initialize
+      showPage(currentPage);
+    </script>
+
+      <!-- <div class="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+          <div><i class="fas fa-envelope"></i>hamza.ali.art3@gmail.com</div>
+          <div><i class="fas fa-phone"></i>+92 303 730 8847</div>
+          <div>
+            <i class="fab fa-linkedin"></i
+            ><a
+              href="https://www.linkedin.com/in/hamza-ali"
+              target="_blank"
+              style="color: #00adb5; text-decoration: none"
+              >linkedin.com/in/hamza-ali</a
+            >
+          </div>
+          <div>
+            <i class="fab fa-github"></i
+            ><a
+              href="https://github.com/hamzali98"
+              target="_blank"
+              style="color: #00adb5; text-decoration: none"
+              >github.com/hamzali98</a
+            >
+          </div>
+        </div>
+      </div> -->
+    </section>
+  </body>
+</html>

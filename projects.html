@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Hamza Ali</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      body {
+        background: #181a1b;
+        color: #f5f6fa;
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      h2 {
+        color: #00adb5;
+      }
+      header {
+        text-align: center;
+        padding: 2rem 1rem 1rem 1rem;
+        background: #23272b;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+      }
+      header p {
+        color: #b2becd;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+      }
+      section {
+        max-width: 900px;
+        margin: 2rem auto;
+        background: #23272b;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+      }
+      .about {
+        margin-bottom: 2rem;
+      }
+      .about h2 {
+        margin-top: 0;
+        color: #00adb5;
+      }
+      .about p {
+        color: #b2becd;
+        line-height: 1.6;
+      }
+      .tools {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+      }
+      .tool {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80px;
+      }
+      .tool i {
+        font-size: 2.5rem;
+        color: #00adb5;
+        margin-bottom: 0.5rem;
+      }
+      .tool span {
+        font-size: 1rem;
+        color: #b2becd;
+      }
+      .projects {
+        margin-top: 2rem;
+      }
+      .project {
+        background: #181a1b;
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+      }
+      .project h3 {
+        margin: 0 0 0.5rem 0;
+        color: #00adb5;
+      }
+      .project p {
+        margin: 0 0 1rem 0;
+        color: #b2becd;
+      }
+      .project a {
+        color: #00adb5;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.2s;
+      }
+      .project a:hover {
+        color: #f5f6fa;
+      }
+      .contact {
+        margin-top: 2rem;
+        background: #181a1b;
+        border-radius: 8px;
+        padding: 1.5rem;
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+      }
+      .contact h2 {
+        color: #00adb5;
+        margin-top: 0;
+      }
+      .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        color: #b2becd;
+      }
+      .contact-info i {
+        margin-right: 0.5rem;
+        color: #00adb5;
+      }
+      @media (max-width: 600px) {
+        section {
+          padding: 1rem;
+        }
+        .tools {
+          gap: 1rem;
+        }
+        .tool {
+          width: 60px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header"></div>
+    <!-- projects section -->
+    <section>
+      <h2>Projects & Applications</h2>
+      <div class="projects">
+        <!-- Project Six -->
+        <div class="project">
+          <div style="display: flex; justify-content: space-between">
+            <h3>SOFT Laundry</h3>
+            <!-- <a href="https://ridenserve.online/" target="_blank"
+              >Live Demo coming soon!</a
+            > -->
+          </div>
+          <p>
+            SOFT Laundry is a laundry management application built using flutter
+            for front end and core PHP for backend. The application allows users
+            to manage their laundry orders, view their orders, and track their
+            laundry progress. The application is designed to be user-friendly
+            and intuitive, with a clean and modern interface. The application is
+            under development phase and will be completed soon.
+          </p>
+          <!-- <ul style="color: #b2becd; margin-bottom: 1rem; padding-left: 1.2rem">
+            <li>
+              Setting up an automated CI/CD workflow using GitHub + Vercel
+            </li>
+            <li>Mapping a custom GoDaddy domain to the live deployment</li>
+            <li>
+              Ensuring a reliable and efficient delivery pipeline from code to
+              production
+            </li>
+          </ul> -->
+          <div
+            style="
+              font-size: 0.95rem;
+              color: #b2becd;
+              margin-bottom: 1rem;
+              display: flex;
+              align-items: center;
+              gap: 1.2rem;
+            "
+          >
+            <span title="Flutter" style="display: flex; align-items: center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+                alt="Flutter"
+                style="width: 24px; height: 24px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="php" style="display: flex; align-items: center">
+              <img
+                src="https://www.svgrepo.com/show/508936/php02.svg"
+                alt="php"
+                style="width: 28px; height: 28px; margin-right: 0.3rem"
+              />
+            </span>
+          </div>
+        </div>
+        <!-- Project Five -->
+        <div class="project">
+          <div style="display: flex; justify-content: space-between">
+            <h3>RideNserve</h3>
+            <!-- <a href="https://ridenserve.online/" target="_blank"
+              >Live Demo coming soon!</a
+            > -->
+          </div>
+          <p>
+            RideNserve is a ride hailing application built using ionic with
+            angular. In application user onboarding and driver onboarding
+            modules are present. The application also have googleMaps integrated
+            with only current location functionality. On boarding functionality
+            is complete using node and Express server with MongoDB as database.
+            The application is built for both Android and iOS devices. but
+            checked only on android device. The application is no more in
+            development phase because the development was shifted to flutter and
+            assigned to another team.
+          </p>
+          <!-- <ul style="color: #b2becd; margin-bottom: 1rem; padding-left: 1.2rem">
+            <li>
+              Setting up an automated CI/CD workflow using GitHub + Vercel
+            </li>
+            <li>Mapping a custom GoDaddy domain to the live deployment</li>
+            <li>
+              Ensuring a reliable and efficient delivery pipeline from code to
+              production
+            </li>
+          </ul> -->
+          <div
+            style="
+              font-size: 0.95rem;
+              color: #b2becd;
+              margin-bottom: 1rem;
+              display: flex;
+              align-items: center;
+              gap: 1.2rem;
+            "
+          >
+            <span title="Ionic" style="display: flex; align-items: center">
+              <img
+                src="https://www.svgrepo.com/show/353912/ionic-icon.svg"
+                alt="Ionic"
+                style="width: 24px; height: 24px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="Angular" style="display: flex; align-items: center">
+              <i
+                class="fab fa-angular"
+                style="font-size: 1.6rem; color: #00adb5; margin-right: 0.3rem"
+              ></i>
+            </span>
+            <span title="Node.js" style="display: flex; align-items: center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                alt="Node.js"
+                style="width: 28px; height: 28px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="Express" style="display: flex; align-items: center">
+              <img
+                src="https://www.svgrepo.com/show/330398/express.svg"
+                alt="Express"
+                style="width: 28px; height: 28px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="Firebase" style="display: flex; align-items: center">
+              <img
+                src="https://www.svgrepo.com/show/373595/firebase.svg"
+                alt="Firebase"
+                style="width: 24px; height: 24px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="Mongo" style="display: flex; align-items: center">
+              <img
+                src="https://www.svgrepo.com/show/373845/mongo.svg"
+                alt="Mongo"
+                style="width: 24px; height: 24px; margin-right: 0.3rem"
+              />
+            </span>
+          </div>
+        </div>
+        <!-- Project four -->
+        <div class="project">
+          <div style="display: flex; justify-content: space-between">
+            <h3>Bookworm</h3>
+            <!-- <a href="https://ridenserve.online/" target="_blank"
+              >Live Demo coming soon!</a
+            > -->
+          </div>
+          <p>
+            A mobile app built with Flutter that allows users to browse, search,
+            and save books. It provides a user-friendly interface for users to
+            explore books, view book details, and save their favorite books. The
+            app also includes a search feature that allows users to search for
+            books by title, author, or genre.
+          </p>
+          <!-- <ul style="color: #b2becd; margin-bottom: 1rem; padding-left: 1.2rem">
+            <li>
+              Setting up an automated CI/CD workflow using GitHub + Vercel
+            </li>
+            <li>Mapping a custom GoDaddy domain to the live deployment</li>
+            <li>
+              Ensuring a reliable and efficient delivery pipeline from code to
+              production
+            </li>
+          </ul> -->
+          <div
+            style="
+              font-size: 0.95rem;
+              color: #b2becd;
+              margin-bottom: 1rem;
+              display: flex;
+              align-items: center;
+              gap: 1.2rem;
+            "
+          >
+            <span title="Flutter" style="display: flex; align-items: center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+                alt="Flutter"
+                style="width: 24px; height: 24px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="Figma" style="display: flex; align-items: center">
+              <i
+                class="fab fa-figma"
+                style="font-size: 1.6rem; color: #00adb5; margin-right: 0.3rem"
+              ></i>
+            </span>
+          </div>
+        </div>
+        <!-- Project three -->
+        <div class="project">
+          <div style="display: flex; justify-content: space-between">
+            <h3>TomzDesign.com - Custom Web Design & Deployment</h3>
+            <a href="https://tomzdesign.com/" target="_blank">Live Site</a>
+          </div>
+          <p>
+            A fully custom-reactive site with engaging animations and automated
+            deployment.
+          </p>
+          <ul style="color: #b2becd; margin-bottom: 1rem; padding-left: 1.2rem">
+            <li>A fully custom frontend crafted from scratch.</li>
+            <li>Interactive animations powered by CSS.</li>
+            <li>Automated deployment via GitHub → Vercel CI/CD pipeline.</li>
+            <li>
+              Production-ready delivery with a GoDaddy custom domain mapping.
+            </li>
+          </ul>
+          <div
+            style="
+              font-size: 0.95rem;
+              color: #b2becd;
+              margin-bottom: 1rem;
+              display: flex;
+              align-items: center;
+              gap: 1.2rem;
+            "
+          >
+            <span title="React" style="display: flex; align-items: center">
+              <i
+                class="fab fa-react"
+                style="font-size: 1.6rem; color: #00adb5; margin-right: 0.3rem"
+              ></i>
+            </span>
+            <span title="GitHub" style="display: flex; align-items: center">
+              <i
+                class="fab fa-github"
+                style="font-size: 1.6rem; color: #00adb5; margin-right: 0.3rem"
+              ></i>
+            </span>
+            <span title="Vercel" style="display: flex; align-items: center">
+              <img
+                src="https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png"
+                alt="Vercel"
+                style="width: 24px; height: 24px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="GoDaddy" style="display: flex; align-items: center">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/f/fa/GoDaddy_logo.svg"
+                alt="GoDaddy"
+                style="width: 50px; /* height: 24px; */ margin-right: 0.3rem"
+              />
+            </span>
+          </div>
+        </div>
+
+        <!-- Project two -->
+        <div class="project">
+          <div style="display: flex; justify-content: space-between">
+            <h3>Al-Raheem Technologies Website Revamp</h3>
+            <a href="https://alraheemtechnologies.online" target="_blank"
+              >Live Site</a
+            >
+          </div>
+
+          <p>
+            Full lifecycle redesign and deployment of the company website,
+            featuring a modern UI overhaul, CI/CD pipeline, custom domain
+            integration, and a backend for contact management.
+          </p>
+          <ul style="color: #b2becd; margin-bottom: 1rem; padding-left: 1.2rem">
+            <li>
+              Customized branding: colors, media, and typography tailored to
+              company identity.
+            </li>
+            <li>
+              Integrated video backgrounds and dynamic visuals for improved
+              engagement.
+            </li>
+            <li>
+              Connected GoDaddy domain to Vercel for seamless auto-deployment
+              from GitHub.
+            </li>
+            <li>
+              Developed backend endpoint for “Contact Us” form; routed
+              submissions to company email.
+            </li>
+          </ul>
+          <div
+            style="
+              font-size: 0.95rem;
+              color: #b2becd;
+              margin-bottom: 1rem;
+              display: flex;
+              align-items: center;
+              gap: 1.2rem;
+            "
+          >
+            <span title="HTML5" style="display: flex; align-items: center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                alt="HTML5"
+                style="width: 28px; height: 28px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="CSS3" style="display: flex; align-items: center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="CSS3"
+                style="width: 28px; height: 28px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="Node.js" style="display: flex; align-items: center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                alt="Node.js"
+                style="width: 28px; height: 28px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="Express" style="display: flex; align-items: center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                alt="Express"
+                style="width: 28px; height: 28px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="GitHub" style="display: flex; align-items: center">
+              <i
+                class="fab fa-github"
+                style="font-size: 1.6rem; color: #00adb5; margin-right: 0.3rem"
+              ></i>
+            </span>
+            <span title="Vercel" style="display: flex; align-items: center">
+              <img
+                src="https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png"
+                alt="Vercel"
+                style="width: 24px; height: 24px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="GoDaddy" style="display: flex; align-items: center">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/f/fa/GoDaddy_logo.svg"
+                alt="GoDaddy"
+                style="width: 50px; margin-right: 0.3rem; border-radius: 4px"
+              />
+            </span>
+          </div>
+        </div>
+        <!-- Project one -->
+        <div class="project">
+          <div style="display: flex; justify-content: space-between">
+            <h3>Ride & Serve Deployment</h3>
+            <a href="https://ridenserve.online/" target="_blank">Live Site</a>
+          </div>
+          <p>
+            A streamlined deployment-focused project where your primary
+            responsibilities included:
+          </p>
+          <ul style="color: #b2becd; margin-bottom: 1rem; padding-left: 1.2rem">
+            <li>
+              Setting up an automated CI/CD workflow using GitHub + Vercel
+            </li>
+            <li>Mapping a custom GoDaddy domain to the live deployment</li>
+            <li>
+              Ensuring a reliable and efficient delivery pipeline from code to
+              production
+            </li>
+          </ul>
+          <div
+            style="
+              font-size: 0.95rem;
+              color: #b2becd;
+              margin-bottom: 1rem;
+              display: flex;
+              align-items: center;
+              gap: 1.2rem;
+            "
+          >
+            <span title="GitHub" style="display: flex; align-items: center">
+              <i
+                class="fab fa-github"
+                style="font-size: 1.6rem; color: #00adb5; margin-right: 0.3rem"
+              ></i>
+            </span>
+            <span title="Vercel" style="display: flex; align-items: center">
+              <img
+                src="https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png"
+                alt="Vercel"
+                style="width: 24px; height: 24px; margin-right: 0.3rem"
+              />
+            </span>
+            <span title="GoDaddy" style="display: flex; align-items: center">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/f/fa/GoDaddy_logo.svg"
+                alt="GoDaddy"
+                style="width: 50px; /* height: 24px; */ margin-right: 0.3rem"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pagination section -->
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          margin-top: 2rem;
+        "
+      >
+        <div style="margin-bottom: 1rem"></div>
+        <label
+          for="projectsPerPageSelect"
+          style="color: #b2becd; font-size: 1rem; margin-right: 0.5rem"
+          >Items per page:</label
+        >
+        <select
+          id="projectsPerPageSelect"
+          style="
+            background: #23272b;
+            color: #00adb5;
+            border: none;
+            padding: 0.3rem 0.8rem;
+            border-radius: 5px;
+            font-size: 1rem;
+          "
+        >
+          <option value="2">2</option>
+          <option value="3" selected>3</option>
+          <option value="5">5</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center">
+        <button
+          id="prevPage"
+          style="
+            background: #23272b;
+            color: #00adb5;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 5px;
+            margin-right: 1rem;
+            cursor: pointer;
+            font-size: 1rem;
+          "
+          disabled
+        >
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <span
+          id="paginationNumbers"
+          style="display: flex; align-items: center; gap: 0.5rem"
+        ></span>
+        <button
+          id="nextPage"
+          style="
+            background: #23272b;
+            color: #00adb5;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 5px;
+            margin-left: 1rem;
+            cursor: pointer;
+            font-size: 1rem;
+          "
+        >
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <script>
+        const projects = Array.from(document.querySelectorAll(".project"));
+        let projectsPerPage = 3;
+        let currentPage = 1;
+        let totalPages = Math.ceil(projects.length / projectsPerPage);
+
+        function renderPaginationNumbers() {
+          const container = document.getElementById("paginationNumbers");
+          container.innerHTML = "";
+          // Show previous page number if exists
+          if (currentPage > 1) {
+            const prev = document.createElement("button");
+            prev.textContent = currentPage - 1;
+            prev.style.cssText =
+              "background: #23272b; color: #00adb5; border: none; border-radius: 4px; padding: 0.3rem 0.7rem; cursor: pointer; font-size: 1rem;";
+            prev.onclick = () => {
+              currentPage = currentPage - 1;
+              showPage(currentPage);
+            };
+            container.appendChild(prev);
+          }
+          // Current page
+          const curr = document.createElement("span");
+          curr.textContent = currentPage;
+          curr.style.cssText =
+            "color: #f5f6fa; font-weight: bold; font-size: 1.1rem; background: #00adb5; border-radius: 4px; padding: 0.3rem 0.7rem;";
+          container.appendChild(curr);
+          // Next page number if exists
+          if (currentPage < totalPages) {
+            const next = document.createElement("button");
+            next.textContent = currentPage + 1;
+            next.style.cssText =
+              "background: #23272b; color: #00adb5; border: none; border-radius: 4px; padding: 0.3rem 0.7rem; cursor: pointer; font-size: 1rem;";
+            next.onclick = () => {
+              currentPage = currentPage + 1;
+              showPage(currentPage);
+            };
+            container.appendChild(next);
+          }
+          // If more than 3 pages, show ... and last page
+          if (totalPages > 3 && currentPage < totalPages - 1) {
+            const dots = document.createElement("span");
+            dots.textContent = "...";
+            dots.style.cssText = "color: #b2becd; font-size: 1rem;";
+            container.appendChild(dots);
+
+            const last = document.createElement("button");
+            last.textContent = totalPages;
+            last.style.cssText =
+              "background: #23272b; color: #00adb5; border: none; border-radius: 4px; padding: 0.3rem 0.7rem; cursor: pointer; font-size: 1rem;";
+            last.onclick = () => {
+              currentPage = totalPages;
+              showPage(currentPage);
+            };
+            container.appendChild(last);
+          }
+        }
+
+        function showPage(page) {
+          totalPages = Math.ceil(projects.length / projectsPerPage);
+          if (page < 1) page = 1;
+          if (page > totalPages) page = totalPages;
+          currentPage = page;
+          projects.forEach((proj, idx) => {
+            proj.style.display =
+              idx >= (page - 1) * projectsPerPage &&
+              idx < page * projectsPerPage
+                ? ""
+                : "none";
+          });
+          document.getElementById("prevPage").disabled = page === 1;
+          document.getElementById("nextPage").disabled = page === totalPages;
+          renderPaginationNumbers();
+        }
+
+        document.getElementById("prevPage").addEventListener("click", () => {
+          if (currentPage > 1) {
+            currentPage--;
+            showPage(currentPage);
+          }
+        });
+
+        document.getElementById("nextPage").addEventListener("click", () => {
+          if (currentPage < totalPages) {
+            currentPage++;
+            showPage(currentPage);
+          }
+        });
+
+        document
+          .getElementById("projectsPerPageSelect")
+          .addEventListener("change", (e) => {
+            projectsPerPage = parseInt(e.target.value, 10);
+            totalPages = Math.ceil(projects.length / projectsPerPage);
+            currentPage = 1;
+            showPage(currentPage);
+          });
+
+        // Initialize
+        showPage(currentPage);
+      </script>
+      <!-- contact section -->
+      <div id="contact"></div>
+    </section>
+    <script>
+      async function loadComponent(id, file) {
+        try {
+          const response = await fetch(file);
+          if (!response.ok) throw new Error(`Failed to load ${file}`);
+          const content = await response.text();
+          document.getElementById(id).innerHTML = content;
+        } catch (error) {
+          console.error(error);
+          document.getElementById(id).innerHTML = `
+      <p>Error loading ${id} section</p>
+      `;
+        }
+      } // Load all components
+      loadComponent("header", "sections/header.html");
+      //   loadComponent("about", "sections/about.html");
+      //   loadComponent("tools", "sections/tools.html");
+      //   loadComponent("index_projects", "sections/index_projects.html");
+      loadComponent("contact", "sections/contact.html");
+    </script>
+  </body>
+</html>
