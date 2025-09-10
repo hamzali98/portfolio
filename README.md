@@ -21,6 +21,5 @@ The site is deployed through a fully automated CI/CD pipeline utilizing GitHub a
 GitHub → (push) → Cloudflare CI/CD → Live Site
   
 ## Contact
-Reach out via:
 - Email: hamza.ali.art3@gmail.com
 - LinkedIn: [Your Profile]([https://www.linkedin.com/in/…](https://www.linkedin.com/in/hamza-ali))
