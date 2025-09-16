@@ -1,0 +1,188 @@
+<header>
+  <!-- Futuristic glowing lines + animated particles background -->
+  <svg
+    style="
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+    "
+    viewBox="0 0 600 180"
+    preserveAspectRatio="none"
+  >
+    <defs>
+      <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#00adb5" stop-opacity="0.7" />
+        <stop offset="100%" stop-color="#393e46" stop-opacity="0" />
+      </linearGradient>
+      <radialGradient id="particleGlow" r="50%" cx="50%" cy="50%">
+        <stop offset="0%" stop-color="#00fff7" stop-opacity="0.8" />
+        <stop offset="100%" stop-color="#00adb5" stop-opacity="0" />
+      </radialGradient>
+    </defs>
+    <!-- Glowing lines -->
+    <polyline
+      points="0,30 150,80 300,40 450,120 600,60"
+      fill="none"
+      stroke="url(#glow)"
+      stroke-width="6"
+    />
+    <polyline
+      points="0,120 200,60 400,140 600,100"
+      fill="none"
+      stroke="#00adb5"
+      stroke-width="2"
+      opacity="0.4"
+    />
+    <circle cx="300" cy="40" r="8" fill="#00adb5" opacity="0.5" />
+    <circle cx="450" cy="120" r="5" fill="#00adb5" opacity="0.3" />
+    <!-- Animated glowing particles -->
+    <circle r="6" fill="url(#particleGlow)" opacity="0.7">
+      <animate
+        attributeName="cx"
+        values="80;520;80"
+        dur="7s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="cy"
+        values="40;140;40"
+        dur="7s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.7;0.2;0.7"
+        dur="7s"
+        repeatCount="indefinite"
+      />
+    </circle>
+    <circle r="4" fill="url(#particleGlow)" opacity="0.5">
+      <animate
+        attributeName="cx"
+        values="500;100;500"
+        dur="5s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="cy"
+        values="60;160;60"
+        dur="5s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.5;0.1;0.5"
+        dur="5s"
+        repeatCount="indefinite"
+      />
+    </circle>
+    <circle r="5" fill="url(#particleGlow)" opacity="0.6">
+      <animate
+        attributeName="cx"
+        values="200;400;200"
+        dur="6s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="cy"
+        values="120;30;120"
+        dur="6s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.6;0.3;0.6"
+        dur="6s"
+        repeatCount="indefinite"
+      />
+    </circle>
+  </svg>
+  <a
+    href="index.html"
+    style="
+      text-decoration: none;
+      color: inherit;
+      position: relative;
+      z-index: 1;
+    "
+  >
+    <h1
+      style="
+        font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 2px;
+        font-weight: 700;
+        text-shadow: 0 2px 16px #00adb5;
+      "
+    >
+      <span style="color: #00adb5">&#60;</span>
+      Hamza Ali
+      <span style="color: #00adb5">&#47;&#62;</span>
+    </h1>
+  </a>
+  <p
+    style="
+      font-family: 'Fira Mono', monospace;
+      color: #b2becd;
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      position: relative;
+      z-index: 1;
+    "
+  >
+    <i class="fas fa-laptop-code" style="color: #00adb5"></i>
+    Application Developer &bull; Building modern apps and solutions
+  </p>
+  <div style="margin-top: 1rem; position: relative; z-index: 1">
+    <a
+      href="https://www.linkedin.com/in/hamza-ali"
+      target="_blank"
+      title="LinkedIn"
+      style="
+        margin: 0 0.5rem;
+        color: #b2becd;
+        text-decoration: none;
+        transition: color 0.2s;
+      "
+      onmouseover="this.style.color='#00adb5';"
+      onmouseout="this.style.color='#b2becd';"
+    >
+      <i class="fab fa-linkedin fa-lg"></i>
+    </a>
+    <a
+      href="https://github.com/hamzali98"
+      target="_blank"
+      title="GitHub"
+      style="
+        margin: 0 0.5rem;
+        color: #b2becd;
+        text-decoration: none;
+        transition: color 0.2s;
+      "
+      onmouseover="this.style.color='#00adb5';"
+      onmouseout="this.style.color='#b2becd';"
+    >
+      <i class="fab fa-github fa-lg"></i>
+    </a>
+    <a
+      href="mailto:hamza@example.com"
+      title="Email"
+      style="margin: 0 0.5rem; color: #b2becd; transition: color 0.2s"
+      onmouseover="this.style.color='#00adb5';"
+      onmouseout="this.style.color='#b2becd';"
+    >
+      <i class="fas fa-envelope fa-lg"></i>
+    </a>
+  </div>
+  <link
+    href="https://fonts.googleapis.com/css?family=Orbitron:700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap"
+    rel="stylesheet"
+  />
+</header>
