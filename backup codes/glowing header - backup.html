@@ -1,0 +1,126 @@
+<header
+  style="
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(120deg, #232526 0%, #23272b 100%);
+    border-radius: 1rem;
+    box-shadow: 0 4px 32px rgba(0, 173, 181, 0.15);
+    padding: 2rem 1rem 2.5rem 1rem;
+  "
+>
+  <div
+    style="
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+      background: linear-gradient(270deg, #00adb5, #393e46, #222831, #00adb5);
+      background-size: 800% 800%;
+      animation: gradientMove 12s ease infinite;
+      opacity: 0.7;
+      border-radius: 1rem;
+      filter: blur(2px);
+    "
+  ></div>
+  <a
+    href="index.html"
+    style="
+      text-decoration: none;
+      color: inherit;
+      position: relative;
+      z-index: 1;
+    "
+  >
+    <h1
+      style="
+        font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+        letter-spacing: 2px;
+        font-weight: 700;
+        text-shadow: 0 2px 16px #00adb5;
+      "
+    >
+      <span style="color: #00adb5">&#60;</span>
+      Hamza Ali
+      <span style="color: #00adb5">&#47;&#62;</span>
+    </h1>
+  </a>
+  <p
+    style="
+      font-family: 'Fira Mono', monospace;
+      color: #b2becd;
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      position: relative;
+      z-index: 1;
+    "
+  >
+    <i class="fas fa-laptop-code" style="color: #00adb5"></i>
+    Application Developer &bull; Building modern apps and solutions
+  </p>
+  <div style="margin-top: 1rem; position: relative; z-index: 1">
+    <!-- Social links as before -->
+    <a
+      href="https://www.linkedin.com/in/hamza-ali"
+      target="_blank"
+      title="LinkedIn"
+      style="
+        margin: 0 0.5rem;
+        color: #b2becd;
+        text-decoration: none;
+        transition: color 0.2s;
+      "
+      onmouseover="this.style.color='#00adb5';"
+      onmouseout="this.style.color='#b2becd';"
+    >
+      <i class="fab fa-linkedin fa-lg"></i>
+    </a>
+    <a
+      href="https://github.com/hamzali98"
+      target="_blank"
+      title="GitHub"
+      style="
+        margin: 0 0.5rem;
+        color: #b2becd;
+        text-decoration: none;
+        transition: color 0.2s;
+      "
+      onmouseover="this.style.color='#00adb5';"
+      onmouseout="this.style.color='#b2becd';"
+    >
+      <i class="fab fa-github fa-lg"></i>
+    </a>
+    <a
+      href="mailto:hamza@example.com"
+      title="Email"
+      style="margin: 0 0.5rem; color: #b2becd; transition: color 0.2s"
+      onmouseover="this.style.color='#00adb5';"
+      onmouseout="this.style.color='#b2becd';"
+    >
+      <i class="fas fa-envelope fa-lg"></i>
+    </a>
+  </div>
+  <link
+    href="https://fonts.googleapis.com/css?family=Orbitron:700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    @keyframes gradientMove {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  </style>
+</header>
